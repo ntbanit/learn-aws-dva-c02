@@ -1,6 +1,0 @@
-Section 02:
-- Setup Account 
-
-Section 03:
-- Download AWS CLI
-- Config Credentials 

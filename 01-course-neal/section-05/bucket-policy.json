@@ -1,0 +1,18 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowDeleteObject",
+            "Effect": "Allow",
+            "Principal":{
+                "AWS": "arn:aws:iam::my-secret-account:user/my-secret-user"
+            },
+            "Action": [
+                "s3:DeleteObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::my-secret-bucket/*"
+            ]
+        }
+    ]
+}
