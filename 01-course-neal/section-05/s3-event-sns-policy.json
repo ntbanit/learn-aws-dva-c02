@@ -1,0 +1,25 @@
+{
+    "Version": "2012-10-17",
+    "Id": "PolicyForSNSTopicId",
+    "Statement": [
+        {
+            "Sid": "PlocyForSNSTopic",
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "s3.amazonaws.com"
+            },
+            "Action": [
+                "SNS:Publish"
+            ],
+            "Resource": "arn:aws:sns:MY_REGION_ID:MY_ACCOUNT_ID:MY_TOPIC_ID",
+            "Condition": {
+                "ArnLike": {
+                    "aws:SourceArn": "arn:aws:s3:::MY_BUCKET_NAME"
+                },
+                "StringEquals": {
+                    "aws:SourceAccount": "MY_ACCOUNT_ID"
+                }
+            }
+        }
+    ]
+}
