@@ -35,7 +35,7 @@
 - Create an Beanstalk App
 
 # Section 7: Lambda & SAM 
-1. Lambda 
+1. Lambda [learning] 
 - Invoke Function
 - Event Source Mapping 
 - Using Version & Alias
@@ -45,7 +45,7 @@
 - Run SAM App using CloudShell 
 - Serverless App Repo
 
-# Section 8: DynamoDB [learning] 
+# Section 8: DynamoDB 
 - Create Table 
 - Scan Table 
 - Query Table 
