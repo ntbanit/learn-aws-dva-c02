@@ -34,8 +34,8 @@
 2. Beanstalk 
 - Create an Beanstalk App
 
-# Section 7: Lambda & SAM 
-1. Lambda [learning] 
+# Section 7: Lambda & SAM [done]
+1. Lambda 
 - Invoke Function
 - Event Source Mapping 
 - Using Version & Alias
@@ -63,7 +63,7 @@
 - Usage Plans & API Keys 
 - Microservice with API, Lambda, DynamoDB
 
-# Section 10: Containers on AWS 
+# Section 10: Containers on AWS [doing] 
 - ECS Cluster with EC2 Launch Type
 - Launch Task & Service with ALB
 * ECS Lab: 
@@ -71,7 +71,7 @@
 [2] Create Task Definition & ALB
 [3] Create Fargate Cluster & Service
 
-# Section 11: CI/CD on AWS 
+# Section 11: CI/CD on AWS [doing] 
 - Create CodeCommit Repo 
 - Create Piple & App 
 - Add Build Stage to Pipeline
